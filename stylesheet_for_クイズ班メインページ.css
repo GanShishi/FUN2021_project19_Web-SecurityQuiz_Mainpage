@@ -41,7 +41,7 @@ li {
   width: 100%;
   box-sizing: border-box;
   background-color: #c2eeff;
-  padding: 70px 60px;
+  padding: 40px 12%;
 }
 
 .main-title {
@@ -59,6 +59,20 @@ li {
 
 .main-description strong{
   color: red;
+}
+
+.main-mokuji {
+  font-size: 19px;
+  display: inline-block;
+  margin: 2em auto;
+  padding: 1rem;
+  background-color: #f2f2f2; /* 背景色 */
+  box-shadow: 0 0 5px 1px #ccc; /* 影 */
+}
+
+.main-mokuji ul {
+  margin-left: 1rem;
+  text-indent: -1rem;
 }
 
 .heading-1 {
