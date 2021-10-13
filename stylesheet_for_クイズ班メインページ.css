@@ -76,12 +76,26 @@ li {
 }
 
 .heading-1 {
+  display: inline-block;
   font-size: 25px;
   font-weight: 900;
   color: #0000ff;
+  padding: .25em 0 .10em .75em;
+  border-left: 8px solid #008000;
+  /*border-bottom: 1px solid #008000;*/
+  border-top: 1px solid #008000;
 }
 
 .heading-2 {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 900;
+  color: #0000ff;
+  padding: .25em 0 .10em .75em;
+  border-left: 8px solid #008000;
+}
+
+.heading-3 {
   font-size: 19px;
   font-weight: 800;
   text-decoration: underline;
