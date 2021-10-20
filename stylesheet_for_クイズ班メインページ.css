@@ -75,6 +75,7 @@ header {
   text-align: center;
   width: 100%; /* ここで項目の幅を指定 */
   display: inline-block;
+  font-weight: bold;
 }
 
 .header-nav-menu-item a {
