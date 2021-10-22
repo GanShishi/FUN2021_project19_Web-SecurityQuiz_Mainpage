@@ -17,24 +17,6 @@ li {
 }
 
 header {
-  /*green*/
-  /*background-color: #43ff6b;*/
-  /*blue*/
-  /*background-color: #ceccf3;*/
-  /*white*/
-  /*background-color: #ffffff;*/
-  /*background-color: #008080;*/
-  /*background-color: #5f9ea0;*/
-  /*
-  background-color: #20b2aa;
-  width: 100%;
-  height: 90px;
-  box-sizing: border-box;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  */
   top:0px;
   background-color: #20b2aa;
   display: flex;
@@ -49,17 +31,8 @@ header {
   font-size: 30px;
   font-weight: bold;
   float: left;
-  /* 余白の大きさを指定（上、右、下、左）） */
   padding: 20px 40px 20px 40px;
 }
-/*
-.header-list a {
-  float: right;
-  padding: 15px;
-  color: #000000;
-  text-decoration: none;
-}
-*/
 
 .header-nav {
   text-align: center;
@@ -84,28 +57,20 @@ header {
 }
 
 .header-nav-menu-item a:hover{
-    border-bottom: 2px solid #FF7A37; /* 下線の太さや色を指定します */
+    border-bottom: 2px solid #FF7A37; /* ここで下線の太さや色を指定 */
 }
 
 .main {
-  /*max-width: 620px;
-  margin: 0 auto;*/
   width: 100%;
   box-sizing: border-box;
-  /*blue*/
-  /*background-color: #c2eeff;*/
-  /*gray*/
   background-color: #e6e6fa;
   padding: 40px 20%;
 }
 
 .main-title {
-  /*max-width: 620px;
-  margin: 0 auto;*/
   padding-top: 10px;
   text-align: center;
   font-size: 30px;
-  /* font-weight: bolder; */
 }
 
 .main-description {
@@ -121,13 +86,21 @@ header {
   display: inline-block;
   margin: 2em auto;
   padding: 1rem;
-  background-color: #f2f2f2; /* 背景色 */
-  box-shadow: 0 0 5px 1px #ccc; /* 影 */
+  background-color: #f2f2f2;
+  box-shadow: 0 0 5px 1px #ccc;
 }
 
 .main-mokuji ul {
   margin-left: 1rem;
   text-indent: -1rem;
+}
+
+.main-mokuji a {
+  text-decoration: none;
+}
+
+.main-mokuji a:hover {
+  color: #ff0000;
 }
 
 .heading-1 {
@@ -137,7 +110,6 @@ header {
   color: #0000ff;
   padding: .25em 0 .10em .75em;
   border-left: 8px solid #008b8b;
-  /*border-bottom: 1px solid #008000;*/
   border-top: 1px solid #008b8b;
 }
 
@@ -173,8 +145,9 @@ header {
   padding: 16px 24px;
   text-decoration: none;
   border: 1px;
-  background: #5e5;;
+  background: #5e5;
   color: #fff;
+  font-weight: bold;
   box-shadow: 0px 2px 4px #575;
   transition: box-shadow .3s;
 }
@@ -184,8 +157,6 @@ header {
 }
 
 .footer {
-  /*background-color: #008080;*/
-  /*background-color: #5f9ea0;*/
   background-color: #20b2aa;
   color: #ffffff;
   height: 70px;
