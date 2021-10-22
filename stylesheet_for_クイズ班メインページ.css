@@ -70,7 +70,8 @@ header {
 .main-title {
   padding-top: 10px;
   text-align: center;
-  font-size: 30px;
+  font-size: 45px;
+  font-weight: bolder;
 }
 
 .main-description {
