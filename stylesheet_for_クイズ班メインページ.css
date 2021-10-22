@@ -17,47 +17,43 @@ li {
 }
 
 header {
-  top:0px;
+  top: 0px;
   background-color: #20b2aa;
   display: flex;
   position: fixed;
-  justify-content: space-between;
   width: 100%;
-  /*要素が重なるときに使うもの*/
-  /*z-index: 99;*/
+  align-items: center;
 }
 
 .header-logo {
   font-size: 30px;
   font-weight: bold;
-  float: left;
-  padding: 20px 40px 20px 40px;
+  display: inline-block;
+  /*padding: 10px 20px;*/
+  padding: 20px 40px 20px 20px;
 }
 
 .header-nav {
-  text-align: center;
+  margin-left: auto;
 }
 
 .header-nav-menu {
-  margin: 0 auto;
-  padding: 10%;
-  display: inline-block;
+  display: flex;
 }
 
 .header-nav-menu-item {
-  text-align: center;
-  width: 100%; /* ここで項目の幅を指定 */
-  display: inline-block;
   font-weight: bold;
 }
 
 .header-nav-menu-item a {
     text-decoration: none;
     color: #333;
+    padding: 0;
+    margin: 10px;
 }
 
 .header-nav-menu-item a:hover{
-    border-bottom: 2px solid #FF7A37; /* ここで下線の太さや色を指定 */
+    border-bottom: 2px solid #FF7A37; /* 下線の太さや色を指定します */
 }
 
 .main {
