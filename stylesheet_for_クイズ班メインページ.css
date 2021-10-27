@@ -9,6 +9,7 @@
 body {
   font-family: "Avenir Next";
   padding-top: 80px;
+  background-color: #e6e6fa;
 }
 
 /* 箇条書きの点を消している */
@@ -57,10 +58,11 @@ header {
 }
 
 .main {
-  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 40px 20px;
   box-sizing: border-box;
   background-color: #e6e6fa;
-  padding: 40px 20%;
 }
 
 .main-title {
