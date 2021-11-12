@@ -101,6 +101,14 @@ header {
   color: #ff0000;
 }
 
+.main-aboutVirus a {
+  text-decoration: none;
+}
+
+.main-aboutVirus a:hover {
+  color: #ff0000;
+}
+
 .heading-1 {
   display: inline-block;
   font-size: 25px;
@@ -126,8 +134,17 @@ header {
   text-decoration: underline;
 }
 
+.heading-4 {
+  font-size: 19px;
+  font-weight: 800;
+}
+
 .annotation {
   font-size: 16px;
+}
+
+.typeOfVirus a {
+  font-size: 23px;
 }
 
 .main-aboutVirus {
