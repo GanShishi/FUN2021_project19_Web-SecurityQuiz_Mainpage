@@ -101,11 +101,11 @@ header {
   color: #ff0000;
 }
 
-.main-aboutVirus a {
+.main-sentence a {
   text-decoration: none;
 }
 
-.main-aboutVirus a:hover {
+.main-sentence a:hover {
   color: #ff0000;
 }
 
@@ -147,7 +147,7 @@ header {
   font-size: 23px;
 }
 
-.main-aboutVirus {
+.main-sentence {
   font-size: 19px;
 }
 
@@ -173,6 +173,22 @@ header {
 
 .a_button:hover {
   box-shadow: 0px 4px 8px #575;
+}
+
+/*ここから追加のコード*/
+summary {
+  cursor: pointer;
+}
+details {
+  margin: 14px;
+  padding: 10px;
+  width: 80px;
+}
+#pattern1 {
+  font-size: 19px;
+  background-color:#EEEEEE;
+  width:750px;
+  box-shadow: 1px 1px 5px #ccc;
 }
 
 .footer {
